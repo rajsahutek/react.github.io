@@ -1,0 +1,68 @@
+{
+  "name": "legitquest",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.13.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-social-icons": "^5.4.1",
+    "react-toastify": "^7.0.4",
+    "reactstrap": "^8.9.0",
+    "tachyons": "^4.12.0",
+    "tachyons-border-colors": "^4.2.3",
+    "tachyons-borders": "^3.0.4",
+    "tachyons-display": "^5.0.5",
+    "tachyons-hovers": "^2.5.2",
+    "tachyons-line-height": "^3.0.7",
+    "tachyons-links": "^3.0.11",
+    "tachyons-max-widths": "^4.0.6",
+    "tachyons-skins": "^4.1.1",
+    "tachyons-spacing": "^6.0.5",
+    "tachyons-text-align": "^3.1.0",
+    "tachyons-type-scale": "^6.1.1",
+    "tachyons-utilities": "^2.0.2",
+    "tachyons-visibility": "^2.0.6",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "nodemon src/nodedynamic/app.js -e js,hbs"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

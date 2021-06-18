@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+  font-family: 'Mulish', sans-serif;
+}
+#brand-name a{
+  color: #61dafb;
+  font-size: 30px;
+}
+#header{
+  margin-top: 70px;
+}
+.menu_active{
+	font-weight:bold;	
+}
+.header-img{
+  display: flex;  
+  align-items:center;
+  justify-content: flex-end
+}
+.animated{
+	animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+	0%{
+	transform: translateY(10px);
+	}
+	100%{
+	transform: translateY(-10px);
+	}
+}
+
+@keyframes up-down{
+	0%{
+	transform: translateY(10px);
+	}
+	100% {
+	transform: translateY(-10px);
+	}
+}
+.align-middle{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;  
+}
+
+.navbar a:hover{
+	color: #982e2e !important;
+}
+.App {
+  text-align: center;  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
